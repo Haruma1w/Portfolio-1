@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sahapap | Portfolio</title>
+</head>
+
+<body>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="#hero" class="navbar_logo" aria-label="Home">
+      <i class="ri-code-box-line"></i>
+      <span class="logo-text">Sahapap</span>
+    </a>
+
+    <button class="nav_toggle" id="navToggle" aria-label="Toggle menu">
+      <i class="ri-menu-3-line"></i>
+    </button>
+
+    <div class="navbar_links" id="navMenu">
+      <a href="#about" class="nav_item">About</a>
+      <a href="#skills" class="nav_item">Skills</a>
+      <a href="#projects" class="nav_item">Projects</a>
+      <a href="#experience" class="nav_item">Experience</a>
+      <a href="#links" class="nav_item">Links</a>
+      <a href="#contact" class="nav_item">Contact</a>
+
+      <div class="navbar_socials">
+        <a href="https://github.com/Haruma1w" class="navbar_link" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+        <a href="https://www.facebook.com/HarumaOWO" class="navbar_link" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+        <a href="https://www.instagram.com/knott_sp/" class="navbar_link" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="section hero">
+    <div class="container hero-grid reveal">
+      <div class="hero-content">
+        <div class="badge">
+          <i class="ri-sparkling-2-fill"></i>
+          <span>Learning & Building</span>
+        </div>
+
+        <h1>I'm <span class="grad">Sahapap</span></h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          I’m practicing frontend skills and building clean, modern, responsive UI.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#skills" class="btn"><i class="ri-tools-line"></i> View Skills</a>
+          <a href="#contact" class="btn-outline"><i class="ri-mail-send-line"></i> Contact Me</a>
+          <a href="https://slat.cc/haruma1" class="btn-ghost" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> slat.cc
+          </a>
+          <a href="https://konect.gg/haruma" class="btn-ghost" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> konect.gg
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">0</div>
+            <div class="stat-label">Public Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">5%</div>
+            <div class="stat-label">Current Skill Level</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Motivation</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar" aria-hidden="true">
+          <div class="avatar-inner"><span>SP</span></div>
+        </div>
+
+        <div class="hero-card-body">
+          <p class="muted">Now learning:</p>
+          <ul class="focus">
+            <li><i class="ri-check-line"></i> HTML structure</li>
+            <li><i class="ri-check-line"></i> CSS layout</li>
+            <li><i class="ri-check-line"></i> JavaScript basics</li>
+          </ul>
+
+          <div class="mini-actions">
+            <a class="chip" href="#about"><i class="ri-user-3-line"></i> About</a>
+            <a class="chip" href="#skills"><i class="ri-bar-chart-line"></i> Skills</a>
+            <a class="chip" href="#contact"><i class="ri-chat-1-line"></i> Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container reveal card">
+      <div class="section-head">
+        <h2>About Me</h2>
+        <p class="sub">
+          I’m a beginner frontend developer who loves building clean UI and learning every day.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-left">
+          <h3>What I do</h3>
+          <p>
+            I focus on practicing layout, responsive design, and improving step-by-step.
+          </p>
+
+          <div class="about-pills">
+            <span class="pill"><i class="ri-layout-2-line"></i> UI / Layout</span>
+            <span class="pill"><i class="ri-smartphone-line"></i> Responsive</span>
+            <span class="pill"><i class="ri-flashlight-line"></i> Practice</span>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="glass-box">
+            <div class="row"><span class="k">Name</span><span class="v">Sahapap</span></div>
+            <div class="row"><span class="k">Role</span><span class="v">Frontend Learner</span></div>
+            <div class="row"><span class="k">Location</span><span class="v">Thailand</span></div>
+            <div class="row"><span class="k">Status</span><span class="v"><span class="dot"></span> Learning</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container reveal card">
+      <div class="section-head">
+        <h2>My Skills</h2>
+        <p class="sub">Right now I’m starting from the basics (5%).</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill"><i class="ri-html5-fill"></i><span>HTML</span></div>
+        <div class="skill"><i class="ri-css3-fill"></i><span>CSS</span></div>
+        <div class="skill"><i class="ri-javascript-fill"></i><span>JavaScript</span></div>
+        <div class="skill"><i class="ri-git-branch-fill"></i><span>Git</span></div>
+      </div>
+
+      <!-- ✅ All 5% -->
+      <div class="skill-bars">
+        <div class="bar">
+          <div class="bar-top"><span>HTML</span><span>5%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:5%"></div></div>
+        </div>
+        <div class="bar">
+          <div class="bar-top"><span>CSS</span><span>5%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:5%"></div></div>
+        </div>
+        <div class="bar">
+          <div class="bar-top"><span>JavaScript</span><span>5%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:5%"></div></div>
+        </div>
+        <div class="bar">
+          <div class="bar-top"><span>Git</span><span>5%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:5%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="sub">No public projects yet — but I’m building. 👇</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Coming Soon</span>
+            <span class="tag ghost">HTML/CSS</span>
+          </div>
+          <h3>Portfolio v2</h3>
+          <p>Improved layout, better sections, and cleaner design.</p>
+          <div class="project-actions">
+            <a class="btn-sm outline" href="#contact"><i class="ri-mail-line"></i> Notify me</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Coming Soon</span>
+            <span class="tag ghost">Landing Page</span>
+          </div>
+          <h3>Landing Page Practice</h3>
+          <p>Hero, pricing, testimonials, and responsive grid.</p>
+          <div class="project-actions">
+            <a class="btn-sm outline" href="#skills"><i class="ri-tools-line"></i> See skills</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container reveal card">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p class="sub">My current journey.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-body">
+            <h3>Student | Self-taught Developer</h3>
+            <p>Practicing daily and improving step-by-step.</p>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-body">
+            <h3>Next Goal</h3>
+            <p>More real projects + stronger JS + React basics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINKS -->
+  <section id="links" class="section">
+    <div class="container reveal card">
+      <div class="section-head">
+        <h2>Links</h2>
+        <p class="sub">Quick access to my pages.</p>
+      </div>
+
+      <div class="links-grid">
+        <a class="link-card" href="https://slat.cc/haruma1" target="_blank" rel="noopener">
+          <div class="link-left">
+            <div class="link-icon"><i class="ri-global-line"></i></div>
+            <div class="link-body">
+              <h3>slat.cc/haruma1</h3>
+              <p class="muted">Short link / profile page</p>
+            </div>
+          </div>
+          <i class="ri-arrow-right-up-line link-arrow" aria-hidden="true"></i>
+        </a>
+
+        <a class="link-card" href="https://konect.gg/haruma" target="_blank" rel="noopener">
+          <div class="link-left">
+            <div class="link-icon"><i class="ri-share-box-line"></i></div>
+            <div class="link-body">
+              <h3>konect.gg/haruma</h3>
+              <p class="muted">Connection / bio link</p>
+            </div>
+          </div>
+          <i class="ri-arrow-right-up-line link-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container reveal card">
+      <div class="section-head">
+        <h2>Contact Me</h2>
+        <p class="sub">Send a message via Formspree (works on real hosting).</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-row">
+            <i class="ri-mail-line"></i>
+            <div>
+              <div class="label">Email</div>
+              <div class="value">knot1245@email.com</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <i class="ri-phone-line"></i>
+            <div>
+              <div class="label">Phone</div>
+              <div class="value">066-002-1589</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ✅ Formspree full -->
+        <form class="contact-form"
+              action="https://formspree.io/f/mkooobn"
+              method="POST">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </label>
+
+          <!-- Optional: subject -->
+          <input type="hidden" name="_subject" value="New message from portfolio site" />
+
+          <button class="btn" type="submit">
+            <i class="ri-send-plane-2-line"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Sahapap. All Rights Reserved.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script>
+    const navToggle = document.getElementById("navToggle");
+    const navMenu = document.getElementById("navMenu");
+    navToggle.addEventListener("click", () => navMenu.classList.toggle("open"));
+    document.querySelectorAll(".nav_item").forEach(a => a.addEventListener("click", () => navMenu.classList.remove("open")));
+
+    const sections = document.querySelectorAll("header.section, section.section");
+    const navLinks = document.querySelectorAll(".nav_item");
+
+    function setActive() {
+      let current = "hero";
+      sections.forEach(sec => {
+        const top = window.scrollY;
+        const offset = sec.offsetTop - 140;
+        const height = sec.offsetHeight;
+        if (top >= offset && top < offset + height) current = sec.id;
+      });
+      navLinks.forEach(link => link.classList.toggle("active", link.getAttribute("href") === `#${current}`));
+    }
+    window.addEventListener("scroll", setActive);
+    window.addEventListener("load", setActive);
+
+    const revealEls = document.querySelectorAll(".reveal");
+    function reveal() {
+      const trigger = window.innerHeight * 0.88;
+      revealEls.forEach(el => {
+        if (el.getBoundingClientRect().top < trigger) el.classList.add("show");
+      });
+    }
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("load", reveal);
+
+    const toTop = document.getElementById("toTop");
+    window.addEventListener("scroll", () => toTop.classList.toggle("show", window.scrollY > 600));
+    toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  </script>
+</body>
+</html>
