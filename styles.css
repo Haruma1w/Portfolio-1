@@ -17,7 +17,7 @@ body{
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
-  background: url("bmw-m3-angel-eyes-black-background-5k-3840x2160-896.jpg") center/cover no-repeat fixed;
+  background: url(img/bmw-m3-angel-eyes-black-background-5k-3840x2160-896.jpg) center/cover no-repeat fixed;
 }
 
 .bg-overlay{
